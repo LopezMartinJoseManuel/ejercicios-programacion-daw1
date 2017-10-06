@@ -6,7 +6,7 @@
 
 public class HolaMundo { // Clase principal
   public static void main(String[] args) {
-    System.out.println("¡Hola mundo!");
-    System.out.println("Programa Realizado por Lopez Martin J.M.");
+    System.out.println("\033[34m¡Hola mundo!");
+    System.out.println("\033[33mPrograma Realizado por Lopez Martin J.M.");
   }
 }
