@@ -36,11 +36,11 @@ java HolaMundo
 
 ## Que se estudia en Programación
 
-* Lenguaje de Programación JAva
+* Lenguaje de Programación Java  :coffee:
 
-* Comandos de Linux
+* Comandos de Linux  :penguin:
 
-* Git y GitHub
+* Git y GitHub  :octocat:
 
 ## Bibliografia
 
@@ -54,5 +54,6 @@ java HolaMundo
 ## dentro de un archivo Markdown usando img
 
 <img src="imagenes/aprendejava.png" width="240px">
+
 
 
