@@ -1,7 +1,7 @@
 /**
  * Muestra por pantalla la frase "¡Hola mundo!"
  *
- * @author Luis J. Sánchez
+ * @author Jose Manuel Lopez Martin
  */
 
 public class HolaMundo { // Clase principal
