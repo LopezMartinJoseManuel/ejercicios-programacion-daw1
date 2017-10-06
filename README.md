@@ -46,7 +46,12 @@ java HolaMundo
 
 [Aprende Java con Ejercicios](https:/leanpub.com/aprendejava)
 
+## Ejemplo de logo java usando lenguaje Mardown
+
 ![portada](https://images.sftcdn.net/images/t_optimized,f_auto/p/2f4c04f4-96d0-11e6-9830-00163ed833e7/3163796423/java-runtime-environment-screenshot.png)
+
+## Ejemplo de logo formateado con etiquetas html dentro de un 
+## dentro de un archivo Markdown usando <img>
 
 <img src="imagenes/aprendejava.png" width="240px">
 
