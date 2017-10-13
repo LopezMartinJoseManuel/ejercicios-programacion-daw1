@@ -1,8 +1,8 @@
 /**Ejercicio 9 Tema 3
-* Escribe un programa que calcule el volumen de un cono según la fórmula V = 1/3πr2h 	
-*
-* @author Jose Manuel Lopez Martin
-*/
+ * Escribe un programa que calcule el volumen de un cono según la fórmula V = 1/3πr2h 	
+ *
+ * @author Jose Manuel Lopez Martin
+ */
  
 public class Ejercicio9 {
 	public static void main (String [] args) {

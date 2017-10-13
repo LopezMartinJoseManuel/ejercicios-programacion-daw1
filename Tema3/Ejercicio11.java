@@ -1,8 +1,8 @@
 /**Ejercicio 11 Tema 3
-* Realiza un conversor de Kb a Mb.	
-*
-* @author Jose Manuel Lopez Martin
-*/
+ * Realiza un conversor de Kb a Mb.	
+ *
+ * @author Jose Manuel Lopez Martin
+ */
  
 public class Ejercicio11 {
 	public static void main (String [] args) {

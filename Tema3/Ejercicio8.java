@@ -1,9 +1,9 @@
 /**Ejercicio 8 Tema 3
-* Escribe un programa que calcule el salario semanal de un empleado en base
-* a las horas trabajadas, a razón de 12 euros la hora.
-*
-* @author Jose Manuel Lopez Martin
-*/
+ * Escribe un programa que calcule el salario semanal de un empleado en base
+ * a las horas trabajadas, a razón de 12 euros la hora.
+ *
+ * @author Jose Manuel Lopez Martin
+ */
  
 public class Ejercicio8 {
 	public static void main (String [] args) {
