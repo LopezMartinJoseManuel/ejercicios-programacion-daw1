@@ -5,11 +5,9 @@
 */
  
 public class Ejercicio9 {
-	
-	
-	static final double pi = 3.141592654;
-	
 	public static void main (String [] args) {
+	
+	final double pi = 3.141592654;
 		
 	System.out.println("Programa que calcula el volumen de un cono");
 	System.out.println("------------------------------------------");

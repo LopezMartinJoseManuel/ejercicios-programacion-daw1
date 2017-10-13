@@ -1,10 +1,10 @@
 /**Ejercicio 7 Tema 3
-* Escribe un programa que calcule el total de una factura a partir de la base
-* imponible.
-*
-* @author Jose Manuel Lopez Martin
-* 
-*/
+ * Escribe un programa que calcule el total de una factura a partir de la base
+ * imponible.
+ *
+ * @author Jose Manuel Lopez Martin
+ * 
+ */
  
 public class Ejercicio7 {
 	public static void main (String [] args) {
