@@ -17,7 +17,7 @@ public class Ejercicio3 {
 	pesetas1 = 8300;
 	pesetas2 = 166.83;
 	
-	double conversoreuro = (int) pesetas1 / (int) pesetas2;
+	double conversoreuro = (int) (pesetas1 / pesetas2);
 	
 	System.out.println(pesetas1 + " pts cambiados a euros son " + conversoreuro + " euros");
 
