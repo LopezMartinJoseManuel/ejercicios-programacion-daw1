@@ -19,9 +19,9 @@ public class Ejercicio5 {
     int area = base * altura;
     
 
-    System.out.println("La base del rectángulo es: " + base);
-    System.out.println("La altura del rectángulo es: " + altura);
-    System.out.print("El area del rectángulo es: " + area);
+    System.out.println("La base del rectángulo es: " + base + "cm2");
+    System.out.println("La altura del rectángulo es: " + altura + "cm2");
+    System.out.print("El area del rectángulo es: " + area + "cm2");
    
   } 
 }
