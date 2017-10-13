@@ -13,6 +13,11 @@
  * Para tener un 7 en el trimestre necesitas sacar un 6.33 en el segundo examen.	
  *
  * @author Jose Manuel Lopez Martin
+ * 
+ * nota2 = 100 x final - 40 x nota1 / 60
+ * 100 x final = 40 x nota1 + 60 x nota2
+ * 100 x final - 40 x nota1 = 60 x nota2
+ * 100 x final - 40 x nota1 / 60 = nota2
  */
  
 public class Ejercicio12 {
