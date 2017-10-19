@@ -13,7 +13,7 @@ public class Ejercicio4 {
     System.out.print("Por favor, introduzca horas trabajadas: ");
     int horas = Integer.parseInt(System.console().readLine());
 	
-	if (horas <40){
+	if (horas <= 40){
 	System.out.println("El sueldo es " + (horas * 12) + "€");	
 	}
 	else{
