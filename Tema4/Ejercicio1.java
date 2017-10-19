@@ -40,5 +40,16 @@ public class Ejercicio1 {
       default:
         System.out.print("Dia incorrecto ejecute el programa de nuevo.");
     }
+    /**
+     *switch (dia){
+     * case "lunes":
+     * case "miércoles":
+     * case "miercoles":
+     *   System.out.print("1era Hora, Programación");
+     * break;
+     * }
+     * manera de agrupar la misma respuesta en varios case.
+     * 
+     * */
 }
 }
