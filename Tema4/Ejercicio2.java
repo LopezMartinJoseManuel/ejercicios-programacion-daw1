@@ -17,10 +17,11 @@ public class Ejercicio2 {
     if ((hora >=13) && (hora <= 20)) {
       System.out.println("Buenas tardes! :D");
 	}
-    if (((hora >=21) && (hora <= 24)) || ((hora ==0) && (hora <= 5))){
+    if (((hora >=21) && (hora <= 23)) || ((hora ==0) && (hora <= 5))){
       System.out.println("Buenas noches! :D"); 
     }
-     if ((hora >24) || (hora < 0)) {
+    //se expresan las doce con 00
+     if ((hora >23) || (hora < 0)) {
       System.out.println("Esa hora no existe :D");
 	}
   }
