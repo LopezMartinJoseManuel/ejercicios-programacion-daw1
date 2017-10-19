@@ -12,6 +12,12 @@ public class Ejercicio10 {
     System.out.print("Porfavor, introduzca mes de nacimiento (1-12):");
     int mes = Integer.parseInt(System.console().readLine());
     //preguntarle al profe como hacer restriccion de 31 dias   
+    
+    if ((dia > 31) || (dia < 1) || (mes <1) || (mes > 12)){
+	System.out.print("Dia o mes no valido");
+    } 
+    else{
+    
     switch (mes) {
       case 1:
         if(dia <=20){
@@ -111,7 +117,7 @@ public class Ejercicio10 {
 		break;
       default:
         System.out.print("no es un mes válido");
-    }
-
+     }//switch
+	}//if(dia) ... else
   }
 }
