@@ -19,7 +19,7 @@ public class Ejercicio5 {
 	}
 	else{
 	double solucion = -b/a;
-	System.out.println("El resultado de x es :" + solucion);
+	System.out.printf("El resultado de x es : %.2f",solucion);
 	}
 	
 

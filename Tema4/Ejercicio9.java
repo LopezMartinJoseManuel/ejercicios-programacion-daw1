@@ -23,7 +23,7 @@ public class Ejercicio9 {
 	 */
 		
 		if ((a == 0) && (b == 0) && (c == 0)) {
-			System.out.println("Los resultados son infinitos");
+			System.out.println("La ecuacion es un identidad");
 		}
 		
 	/** Si a y b son 0 pero c es distinto de 0
@@ -33,7 +33,7 @@ public class Ejercicio9 {
 			System.out.println("No tiene resultado.");
 		}
 			
-	/** Si a y b son 0 pero c es distinto de 0
+	/** Si a y b son 0 pero c es igual a 0
 	 *  a*x^2+b*x+c=0  //  -b / a
 	 */
 		
@@ -42,7 +42,7 @@ public class Ejercicio9 {
 			System.out.println("x2 = " + (-b / a));
 		}
 
-	/** Si a y b son 0 pero c es distinto de 0
+	/** Si a es 0 pero b y c es distinto de 0
 	 *  a*0^2+b*x+c=0  //  -c / b
 	 */
 		
@@ -50,7 +50,7 @@ public class Ejercicio9 {
 			System.out.println("x1 = x2 = " + (-c / b));
 		}
 
-	/** Si a y b son 0 pero c es distinto de 0
+	/** Si a b y c son distintos de 0
 	 *  a*x^2+b*x+c=0  //  x= (-b+-Math.sqrt(b*b-(4*a*c)))/2*a
 	 */
 		
@@ -61,8 +61,8 @@ public class Ejercicio9 {
 			if (ecuacion < 0) {
 					System.out.println("La ecuación no tiene soluciones reales");
 			}	else {
-				System.out.println("x1 = " + (-b + Math.sqrt(ecuacion))/(4 * a * c));
-				System.out.println("x2 = " + (-b - Math.sqrt(ecuacion))/(4 * a * c));
+				System.out.println("x1 = " + (-b + Math.sqrt(ecuacion))/(2 * a));
+				System.out.println("x2 = " + (-b - Math.sqrt(ecuacion))/(2 * a));
 				}
 
 }

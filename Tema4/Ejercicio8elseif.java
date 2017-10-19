@@ -5,7 +5,7 @@
  * @author Jose Manuel Lopez Martin
  */
  
-public class Ejercicio8 {
+public class Ejercicio8elseif {
 	public static void main (String [] args) {
 		
 	System.out.println("Programa que calcula la media de 3 notas");
