@@ -12,7 +12,7 @@ public class Ejercicio1 {
     System.out.print("\n Introduzca un dia de la semana: ");
     String dia = (System.console().readLine()).toLowerCase();
     //dia.toLowerCase();
-    
+    System.out.println("Dia de la semana: " + dia);
     switch (dia) {
       case "lunes":
         System.out.print("1era Hora, Sistema Informáticos");
@@ -20,6 +20,8 @@ public class Ejercicio1 {
       case "martes":
         System.out.print("1era Hora, Programación");
         break;
+      case "miércoles":
+      //continúa en la siguiente linea
       case "miercoles":
         System.out.print("1era Hora, Sistemas Informáticos");
         break;
