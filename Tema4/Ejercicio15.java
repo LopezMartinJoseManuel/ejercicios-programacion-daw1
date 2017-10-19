@@ -49,7 +49,7 @@ public class Ejercicio15 {
         System.out.println(" " + p );
         break;   
       default:
-        System.out.print("Numero introducido no valido");
+        System.out.print("Intentalo de nuevo");
     }
 
 }
