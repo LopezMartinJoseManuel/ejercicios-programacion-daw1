@@ -15,7 +15,7 @@ public class Ejercicio15 {
   System.out.println("2.Vértice abajo");
   System.out.println("3.Vértice izquierda");
   System.out.println("4.Vétice derecha");
-  System.out.print("respuesta => (1-4): \n");
+  System.out.print("respuesta => (1-4):");
   int respuesta = Integer.parseInt(System.console().readLine());  
   
 //para usar programas modo "menú" usar switch por norma general  

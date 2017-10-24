@@ -17,7 +17,7 @@ public class Ejercicio14 {
     else{
         System.out.println("El numero es impar");	
         }
-
+    // si usaramos el else if exclusor de el resto del programa
     if ((numero % 5) == 0){
       System.out.println("El numero es divisible entre 5");
        }

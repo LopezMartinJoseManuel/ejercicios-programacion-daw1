@@ -7,6 +7,7 @@
 
 public class Ejercicio13 {
   public static void main(String[] args) {
+
   System.out.println("Programa que ordena 3 numero introducidos en orden decreciente");
   System.out.print("Introduce el primer numero: ");
   int a = Integer.parseInt(System.console().readLine()); 
@@ -41,5 +42,16 @@ public class Ejercicio13 {
      System.out.print("El orden seria " + c + " después " + a + " y por ultimo " + b );
     }
   }
+/**
+ * variable auxiliar para intercambio de valores
+ * int aux = 0;
+ * a = 5;
+ * b = 7;
+ * aux = a;
+ * a = b;
+ * b = aux;
+ * 
+ *  
+ */ 
 }
 }
