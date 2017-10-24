@@ -6,7 +6,7 @@
 public class Ejercicio19 {
   public static void main(String[] args) {
     
-	int digitos = 0;
+    int digitos = 0;
     System.out.println("Programa que recorta a un numero a su primera cifra");
     System.out.print("Introduce un número entero de hasta 5 cifras: ");
     int numero = Math.abs(Integer.parseInt(System.console().readLine()));

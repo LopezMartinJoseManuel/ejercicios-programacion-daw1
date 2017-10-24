@@ -6,7 +6,7 @@
 
 public class Ejercicio16 {
   public static void main(String[] args) {  
-	   
+
     int puntuacion = 0;
     System.out.println("¿Tu pareja te esta siendo infiel?");
     System.out.println("Averigualo con nuestro test amoroso Computer Lover <3");
@@ -71,47 +71,47 @@ public class Ejercicio16 {
     String respuesta10 = System.console().readLine(); 
     
        
-	if (respuesta1.equals("v")){
-		puntuacion += 3;
-	}
-	if (respuesta2.equals("v")){
-		puntuacion += 3;
-		}
-	if (respuesta3.equals("v")){
-		puntuacion += 3;
-	}
-	if (respuesta4.equals("v")){
-		puntuacion += 3;
-	}
-	if (respuesta5.equals("v")){
-		puntuacion += 3;
-	}
-	if (respuesta6.equals("v")){
-		puntuacion += 3;
-	}
-	if (respuesta7.equals("v")){
-		puntuacion += 3;
-	}
-	if (respuesta8.equals("v")){
-		puntuacion += 3;
-	}
-	if (respuesta9.equals("v")){
-		puntuacion += 3;
-	}
-	if (respuesta10.equals("v")){
-		puntuacion += 3;
-	}
-	System.out.printf("\nLa puntuación que has sacado es: %d/30", puntuacion);
-	if ((puntuacion >= 0) && ( puntuacion <=10)){
-		System.out.print("\n¡Enhorabuena! tu pareja parece ser totalmente fiel.");
-	}
-	else if ((puntuacion >= 11) && ( puntuacion <=22)) {
-		System.out.print("\nQuizás exista el peligro de otra persona en su vida o en su mente, aunque seguramente será algo sin importancia. No bajes la guardia.");
-	}
-	else if ((puntuacion >= 23) && ( puntuacion <=30)) {
-		System.out.print("\nTu pareja tiene todos los ingredientes para estar viviendo un romance con otra persona. Te aconsejamos que indagues un poco más y averigües que es lo que está pasando por su cabeza.");
-	}
+  if (respuesta1.equals("v")){
+    puntuacion += 3;
+  }
+  if (respuesta2.equals("v")){
+    puntuacion += 3;
+    }
+  if (respuesta3.equals("v")){
+    puntuacion += 3;
+  }
+  if (respuesta4.equals("v")){
+    puntuacion += 3;
+  }
+  if (respuesta5.equals("v")){
+    puntuacion += 3;
+  }
+  if (respuesta6.equals("v")){
+    puntuacion += 3;
+  }
+  if (respuesta7.equals("v")){
+    puntuacion += 3;
+  }
+  if (respuesta8.equals("v")){
+    puntuacion += 3;
+  }
+  if (respuesta9.equals("v")){
+    puntuacion += 3;
+  }
+  if (respuesta10.equals("v")){
+    puntuacion += 3;
+  }
+  System.out.printf("\nLa puntuación que has sacado es: %d/30", puntuacion);
+  if ((puntuacion >= 0) && ( puntuacion <=10)){
+    System.out.print("\n¡Enhorabuena! tu pareja parece ser totalmente fiel.");
+  }
+  else if ((puntuacion >= 11) && ( puntuacion <=22)) {
+    System.out.print("\nQuizás exista el peligro de otra persona en su vida o en su mente, aunque seguramente será algo sin importancia. No bajes la guardia.");
+  }
+  else if ((puntuacion >= 23) && ( puntuacion <=30)) {
+    System.out.print("\nTu pareja tiene todos los ingredientes para estar viviendo un romance con otra persona. Te aconsejamos que indagues un poco más y averigües que es lo que está pasando por su cabeza.");
+  }
 
-	}
-	}
+  }
+}
 
