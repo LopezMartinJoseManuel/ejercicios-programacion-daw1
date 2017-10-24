@@ -1,7 +1,7 @@
 /**
  * Sentencia múltiple (switch) 
  *
- * @author Luis José Sánchez
+ * @author José Manuel López Martín
  */
 
 public class Ejercicio10 {
