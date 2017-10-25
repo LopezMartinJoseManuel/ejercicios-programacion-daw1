@@ -1,5 +1,5 @@
 /**
- * Ejercicio 22
+ * Ejercicio 23
  *
  * @author Jose Manuel Lopez
  */
@@ -65,6 +65,7 @@ public class Ejercicio23 {
   System.out.printf("Tipo de iva(%2d%%)      %.2f\n", tipoIva, ivaCalc);
   System.out.println("Precio con Iva        " + precioIva);
   System.out.printf("Cód. promo. (%s): -%.2f\n", tipoCodigo, calcCodi);
+  //preguntar profe formato printf
   System.out.print("TOTAL	              " + total);
 }
 }
