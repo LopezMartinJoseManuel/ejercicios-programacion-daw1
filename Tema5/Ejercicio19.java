@@ -20,12 +20,21 @@ public class Ejercicio19 {
   int espacios = altura -1;
   int i = 1;
   int alturaini = 1;
-  
+  // se inicia la altura a 1 (por que siempre tendra que pintar al menos un caracter
+  // se cada pasada se aumenta para que termine el bucle. 1 2 3 4  /  4 
   while(alturaini <= altura){
-    System.out.println("*");
+    //se pintan espacios habiendole quitado uno a altura y se van reducido a cada iteración.
+    for (i=1; i <= espacios; i++){
+      System.out.print(" ");
     }
-  altura++;
+    //preguntar profe
+    for(i=1; i < alturaini * 2; i++){
+      System.out.print(caracter);
+    }
+  System.out.println();
+  alturaini++;
+  espacios--;
   }
 }
-
+}
 
