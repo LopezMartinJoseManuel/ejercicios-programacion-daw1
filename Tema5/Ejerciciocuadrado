@@ -9,7 +9,7 @@
  * @author Jose Manuel López Martín
  */
 
-public class Ejerciciocuadrado {
+public class Ejercicio10 {
     public static void main(String[] args) {
     
     double numero = 0;
